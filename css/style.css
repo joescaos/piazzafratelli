@@ -27,6 +27,10 @@
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
+@font-face {
+    font-family: "MilasianCircaBoldPERSONAL";
+    src: url("/fonts/MilasianCircaBoldPERSONAL.ttf");
+    }
 * {
     box-sizing: border-box !important;
     transition: ease all 0.5s;
@@ -39,7 +43,6 @@ html {
 body {
     color: #666666;
     font-size: 14px;
-    font-family: Poppins;
     line-height: 1.80857;
     font-weight: normal;
     overflow-x: hidden !important;
@@ -64,6 +67,7 @@ h5,
 h6 {
     letter-spacing: 0;
     font-weight: normal;
+    font-family: MilasianCircaBoldPERSONAL;
     position: relative;
     padding: 0 0 10px 0;
     font-weight: normal;
@@ -95,6 +99,7 @@ h5 {
 h6 {
     font-size: 13px
 }
+
 
 *,
 *::after,
@@ -129,7 +134,9 @@ ol {
 
 p {
     margin: 20px;
-    font-weight: 300;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 500;
     font-size: 15px;
     line-height: 24px;
 }
@@ -285,8 +292,9 @@ button {
     width: 100%;
     float: left;
     font-size: 60px;
-    color:#094B0B;
+    color:#012201;
     padding-bottom: 0px;
+    -webkit-text-stroke: 1px white;
 }
 
 .coffee_text {
@@ -385,6 +393,7 @@ button {
     float: left;
     font-size: 40px;
     color: #f76d37;
+    font-family: MilasianCircaBoldPERSONAL;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -466,7 +475,7 @@ button {
 .image {
     display: block;
     width: 100%;
-    height: auto;
+    height: 200px;
 }
 
 img.image {
@@ -542,7 +551,7 @@ a:hover {
 .services_section {
     width: 100%;
     float: left;
-    background-image: url(../images/bannerOk.jpg);
+    background-image: url(../images/banner2.jpg);
     height: auto;
     padding-bottom: 100px;
     background-attachment: fixed;
@@ -997,4 +1006,11 @@ a:hover {
 
 .margin_top90 {
     margin-top: 90px;
+}
+
+li img{
+    padding-bottom: 15px;
+}
+.social-media{
+    color: #fdfcfa;
 }
